@@ -10,13 +10,10 @@ import sinan.nortwind.business.abstracts.UserService;
 import sinan.nortwind.core.entities.User;
 import sinan.nortwind.core.utilities.results.DataResult;
 import sinan.nortwind.core.utilities.results.ErrorDataResult;
-import sinan.nortwind.core.utilities.results.Result;
 
 import javax.validation.Valid;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 @RestController
 @RequestMapping("/api/users")

@@ -23,7 +23,7 @@ public class UserManager implements UserService {
     @Override
     public Result add(User user) {
         userDao.save(user);
-        return new SuccessResult();
+        return new SuccessResult("Kullanici eklendi");
     }
 
     @Override
